@@ -117,7 +117,7 @@ export default function LandingPage() {
                 to={feature.link} 
                 className="group bg-white p-10 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-2xl hover:shadow-slate-200/50 transition-all duration-500 hover:-translate-y-2 block"
               >
-                <div className={`w-14 h-14 ${feature.color} rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-${feature.color.split('-')[1]}-500/20 group-hover:scale-110 transition-transform duration-500`}>
+                <div className={`w-14 h-14 ${feature.color} rounded-2xl flex items-center justify-center mb-8 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                   <feature.icon className="h-7 w-7 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-slate-900">{feature.title}</h3>
