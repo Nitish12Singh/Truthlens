@@ -1,0 +1,7 @@
+{
+  "name": "TruthLens - Real-Time Fact-Check Engine",
+  "description": "A comprehensive fact-checking platform with AI-powered verification, source credibility database, and community flagging system.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
